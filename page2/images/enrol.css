@@ -1,7 +1,38 @@
 *{
-    background-color: rgb(255, 102, 0);
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
+main {
+    width: 100%;
+  }  
+
+.column {
+    
+    float: left;
+    width: 33.3%;
+    padding: 0 30px;
+  }
+  
+/*.row {
+    margin: 0 -5px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /*@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }*/
+  
+  .card {
+    line-height: 1.5;
+    padding: 50px;
+    background-color: #f1f1f1; 
+}
+  

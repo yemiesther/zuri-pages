@@ -1,6 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
+*{box-sizing: border-box;
     font-family:  "Segoe UI Emoji", Helvetica, "Apple Color Emoji", Arial, sans-serif;
     box-sizing: border-box
     
@@ -103,18 +101,131 @@ line-height: 1.5;
         background-color: #E7332B;
         color: #fff;
     }
-    
-  
     section.programs {
-        background-color; #fff;
+        background-color: #fff;
         overflow: hidden;
     }
 
+    .fulltext .heading {
+        font-size: 14px;
+        line-height: 24px;
+        color: #E7332B;
+        margin-top: 141px;
+    }
+    
+    .fulltext p.text {
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        color: #514949;
+        margin-top: 8px;
+        margin-bottom: 64px;
+    
+    }
+    
+    .teamhead {
+        margin: 0 auto;
+        margin-top: 250px;
+        text-align: center;
+      width: 100%;
+      background-color: #FFFAFA;
+        padding: 61px 47px 82px 36px;
+        text-align: justify-all;
+    }
 
+   
+.column {
+    
+    float: left;
+    width: 33.3%;
+    padding: 0 30px;
+  }
+  
 
+  
+  .card {
+    line-height: 1.5;
+    padding: 50px;
+    background-color:  #fff; 
+}
+  
+.footer {
+    margin-top: 215px;
+}
 
+.footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
 
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
 
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+ .footer {
+        margin-top: 215px;
+    }
+   
+    .myfooter {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 56px;
+        padding: 20px;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        color: #514949;
+    }
+    
+    .address p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #514949;
+        opacity: 0.9;
+    }
+   
+    .mycontact img {
+        width: 18px;
+        margin-right: 5px;
+    }
+    
+ 
+   footer hr {
+        opacity: 0.2;
+        border: 0.7px solid #514949;
+    }
+   
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
+
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+    text-align: center;
+}
 
     
 
